@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "SAHAY-AI",
+    "slug": "sahay-victim-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "sahay",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#1a4d8f",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "in.gov.sahay.victim"
+    },
+    "android": {
+      "package": "in.gov.sahay.victim",
+      "adaptiveIcon": { "backgroundColor": "#1a4d8f" },
+      "permissions": ["android.permission.RECORD_AUDIO", "android.permission.INTERNET"]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png",
+      "name": "SAHAY-AI — Victim Portal",
+      "shortName": "SAHAY-AI",
+      "description": "National Helpline Against Atrocities — Victim Support Portal",
+      "themeColor": "#1a4d8f",
+      "backgroundColor": "#f5f7fa"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-av",
+      ["expo-splash-screen", { "backgroundColor": "#1a4d8f", "resizeMode": "contain" }]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
